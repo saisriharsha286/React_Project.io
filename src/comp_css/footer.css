@@ -1,0 +1,282 @@
+.footer-container
+{
+    margin-top: 40px;
+    background-color: #495052;
+
+}
+.allsections
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.ind-sec1
+{
+    width: 26%;
+    margin-left: 3%;
+    margin-right: 1%;
+    
+}
+.sec-title
+{
+    margin-top: 20px;
+
+
+}
+.sec-dvdr
+{
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sec-cnt
+{
+    font-size: 17px;
+}
+.sec-contacts
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35%;
+    margin-top: 10px;
+}
+.c-mail
+{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.c-mail img{
+    padding: 10px 0px 10px 0px;
+    transition: transform 1s;
+    width: 40%;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+img:hover
+{
+    transform: rotate(360deg);
+}
+.ind-sec2
+{
+    width: 24%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+.sec-tags
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    gap: 20px;
+}
+.ind-tag
+{
+    background-color: #404547;
+    padding: 3px 10px;
+    text-align: center;
+    box-shadow: 0px 4px 0px 0px #353b3d;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+.l-tag
+{
+    text-decoration: none;
+    color: #fff;
+}
+.l-tag:hover
+{
+    color: #fff;
+}
+.ind-sec3
+{
+    width: 25%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.sec-pics
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    
+}
+.ind-fimg img
+{
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+.ind-fimg :hover
+{
+    opacity: 0.8;
+
+}
+.ind-sec4
+{
+    width: 25%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+.sec-plchld
+{
+    background-color: #404547;
+    border: 0px;
+    box-shadow: 0px 4px 0px 0px #353b3d;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.sec-send
+{
+    padding: 0px 15px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #6fc191;
+    border-color: #6fc191;
+    border: 0px;
+    box-shadow: 0px 4px 0px 0px #6ab78a;
+
+}
+.sec-send:hover
+{
+    margin-top: 4px;
+    box-shadow: 0px 0px 0px 0px #6ab78a;
+
+}
+
+.sub-footer-container
+{
+    background-color: #404547;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    overflow: hidden;
+    /* background-image: url(../images/copyright.png);
+    background-position-x: left; */
+}
+.sub-footer
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+
+}
+.sf-copyright
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+
+    
+}
+.sf-matter
+{
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sf-contacts
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+    width: 25%;
+}
+.f-icons
+{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
+}
+.f-icons img
+{
+    padding: 10px 0px 10px 0px;
+    width: 40%;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+@media screen and (max-width: 768px) {
+    .allsections
+    {
+        display: flex;
+        flex-direction: column;
+        width: 432px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ind-sec1
+    {
+        width: 100%;
+    }
+    .ind-sec2
+    {
+        width: 100%;
+    }
+    .ind-sec3
+    {
+        width: 100%;
+        
+    }
+    .sec-pics
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .ind-sec4
+    {
+        width: 100%;
+    }
+    .sub-footer
+    {
+        display: flex;
+        flex-direction: column;
+        /* height: 100%; */
+    }
+    .sf-copyright
+    {
+        /* margin-left: -35%; */
+        /* margin-right: auto; */
+        margin: auto;
+        text-align: center;
+    }
+    .sf-contacts
+    {
+        margin: auto;
+        width: 60%;
+    }
+    .ind-fimg img
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .allsections
+    {
+        display: flex;
+        flex-direction: column;
+        width: 282px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
