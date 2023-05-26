@@ -1,6 +1,5 @@
 import React from 'react'
 import '../comp_css/section8.css'
-import page from '../images/page.png'
 import url from '../images/url.png'
 import { Link } from 'react-router-dom'
 

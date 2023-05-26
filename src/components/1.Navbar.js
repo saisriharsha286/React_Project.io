@@ -25,7 +25,7 @@ function Navbarlight() {
                     <Navbar variant="light" bg="light" expand="lg">
                         <Container fluid>
                             <Navbar.Brand ><Link to='/'> <img src={logo} alt="" className='brand' /> </Link></Navbar.Brand>
-                            <Navbar.Toggle aria-controls="navbar-light-example" />
+                            <button className='navbar-toggler-collapsed navbar-toggler' aria-controls="navbar-light-example" type='button' data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation"  data-bs-target="#navbar-light-example" >MENU</button>
                             <Navbar.Collapse id="navbar-light-example">
                                 <Nav>
                                     <NavDropdown

@@ -16,7 +16,7 @@ function NewsCard1(props) {
                     <div className='news-title'>{props.title}</div>
                     <div className='desc-dvdr'></div>
                     <div className='desc-description'> {props.description} </div>
-                    <div ><button className='desc-btn' style={{backgroundColor: props.color}}> <img src={page} alt="" style={{width: "16%" }}/> Read More</button></div>
+                    <div ><button className='desc-btn2' style={{backgroundColor: props.color}}> <img src={page} alt="" style={{width: "16%" }}/> Read More</button></div>
                 </div>
             </div>
         </>
